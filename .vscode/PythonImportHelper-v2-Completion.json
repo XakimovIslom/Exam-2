@@ -192,14 +192,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -325,6 +317,14 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -337,14 +337,6 @@
     },
     {
         "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -563,14 +555,6 @@
         "documentation": {}
     },
     {
-        "label": "AbstractUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
         "label": "django.contrib.auth.validators",
         "kind": 6,
         "isExtraImport": true,
@@ -675,14 +659,6 @@
         "description": "task1.forms",
         "isExtraImport": true,
         "detail": "task1.forms",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "common.models",
-        "description": "common.models",
-        "isExtraImport": true,
-        "detail": "common.models",
         "documentation": {}
     },
     {
@@ -943,7 +919,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CUSTOM_APPS = [\n    \"common\",\n    \"task1\",\n    \"task2\",\n    \"task3\",\n    \"task4\",\n    \"task1api\",\n]\nTHIRD_PARTY_APPS = [\n    \"rest_framework\",",
+        "peekOfCode": "CUSTOM_APPS = [\n    \"common\",\n    \"task1\",\n    \"task2\",\n    \"task3\",\n    \"task4\",\n    \"project1\",\n]\nTHIRD_PARTY_APPS = [\n    \"rest_framework\",",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1281,6 +1257,15 @@
         "documentation": {}
     },
     {
+        "label": "Task1ApiConfig",
+        "kind": 6,
+        "importPath": "project1.apps",
+        "description": "project1.apps",
+        "peekOfCode": "class Task1ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'project1'",
+        "detail": "project1.apps",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "task1.migrations.0001_initial",
@@ -1440,33 +1425,6 @@
         "description": "task1.views",
         "peekOfCode": "User = get_user_model()\ndef index(request):\n    return render(request, \"home.html\")\n# def registerUser(request):\n#     page = \"register\"\n#     form = CustomUserCreationForm()\n#     if request.method == \"POST\":\n#         form = CustomUserCreationForm(request.POST)\n#         if form.is_valid():\n#             user = form.save(commit=False)",
         "detail": "task1.views",
-        "documentation": {}
-    },
-    {
-        "label": "Task1ApiConfig",
-        "kind": 6,
-        "importPath": "task1api.apps",
-        "description": "task1api.apps",
-        "peekOfCode": "class Task1ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'task1api'",
-        "detail": "task1api.apps",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 6,
-        "importPath": "task1api.models",
-        "description": "task1api.models",
-        "peekOfCode": "class User(AbstractUser):\n    name = models.CharField(max_length=200, null=True)\n    email = models.EmailField(unique=True, null=True)\n    bio = models.TextField(null=True)\n    avatar = models.ImageField(null=True, default=\"avatar.svg\")\n    USERNAME_FIELD = \"email\"\n    REQUIRED_FIELDS = []\nclass Message(BaseModel):\n    sender = models.ForeignKey(\n        User, on_delete=models.CASCADE, related_name=\"sent_messages\"",
-        "detail": "task1api.models",
-        "documentation": {}
-    },
-    {
-        "label": "Message",
-        "kind": 6,
-        "importPath": "task1api.models",
-        "description": "task1api.models",
-        "peekOfCode": "class Message(BaseModel):\n    sender = models.ForeignKey(\n        User, on_delete=models.CASCADE, related_name=\"sent_messages\"\n    )\n    recipient = models.ForeignKey(\n        User, on_delete=models.CASCADE, related_name=\"received_messages\"\n    )\n    content = models.TextField(null=True, blank=True)\n    # timestamp = models.DateTimeField(auto_now_add=True)",
-        "detail": "task1api.models",
         "documentation": {}
     },
     {
@@ -1665,24 +1623,6 @@
         "description": "task4.models",
         "peekOfCode": "class League(models.Model):\n    name = models.CharField(max_length=100)\n    country = models.CharField(max_length=100)\n    teams = models.ManyToManyField(Team, related_name=\"leagues\")\n    matches = models.ManyToManyField(Match, related_name=\"leagues\")\n    start_date = models.DateField()\n    end_date = models.DateField()\n    def __str__(self):\n        return self.name",
         "detail": "task4.models",
-        "documentation": {}
-    },
-    {
-        "label": "plusOne",
-        "kind": 2,
-        "importPath": "task5.1-roblem",
-        "description": "task5.1-roblem",
-        "peekOfCode": "def plusOne(self, digits):\n    for i in reversed(range(len(digits))):\n        if digits[i] != 9:\n            digits[i] += 1\n            return digits\n        digits[i] = 0\n    return [1] + digits",
-        "detail": "task5.1-roblem",
-        "documentation": {}
-    },
-    {
-        "label": "isValid",
-        "kind": 2,
-        "importPath": "task5.2-problem",
-        "description": "task5.2-problem",
-        "peekOfCode": "def isValid(self, s):\n    ack = []\n    lookfor = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n    for p in s:\n        if p in lookfor.values():\n            ack.append(p)\n        elif ack and lookfor[p] == ack[-1]:\n            ack.pop()\n        else:\n            return False",
-        "detail": "task5.2-problem",
         "documentation": {}
     },
     {

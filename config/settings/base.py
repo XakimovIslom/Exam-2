@@ -42,7 +42,7 @@ CUSTOM_APPS = [
     "task2",
     "task3",
     "task4",
-    "task1api",
+    "project1",
 ]
 
 THIRD_PARTY_APPS = [
