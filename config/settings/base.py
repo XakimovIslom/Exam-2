@@ -213,9 +213,9 @@ AXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit
 
 AUTH_USER_MODEL = "task1.User"
 
-# CACHES = {
-#     'default': {
-#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-#         'LOCATION': '127.0.0.1:11211',
-#     }
-# }
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}

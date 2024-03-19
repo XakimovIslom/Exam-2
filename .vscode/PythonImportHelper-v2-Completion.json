@@ -1309,7 +1309,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_RESULT_BACKEND = env.str(\"CELERY_BROKER_URL\", \"redis://localhost:6379\")\nCELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {",
+        "peekOfCode": "CELERY_RESULT_BACKEND = env.str(\"CELERY_BROKER_URL\", \"redis://localhost:6379\")\nCELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\nCACHES = {",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1318,7 +1318,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {",
+        "peekOfCode": "CELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\nCACHES = {\n    'default': {",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1327,7 +1327,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',",
+        "peekOfCode": "CELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1336,7 +1336,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',",
+        "peekOfCode": "CELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n        'LOCATION': '127.0.0.1:11211',",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1345,7 +1345,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "AXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',\n#     }\n# }",
+        "peekOfCode": "AXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n        'LOCATION': '127.0.0.1:11211',\n    }\n}",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1354,7 +1354,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "AXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',\n#     }\n# }",
+        "peekOfCode": "AXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n        'LOCATION': '127.0.0.1:11211',\n    }\n}",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1363,7 +1363,16 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "AUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',\n#     }\n# }",
+        "peekOfCode": "AUTH_USER_MODEL = \"task1.User\"\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n        'LOCATION': '127.0.0.1:11211',\n    }\n}",
+        "detail": "config.settings.base",
+        "documentation": {}
+    },
+    {
+        "label": "CACHES",
+        "kind": 5,
+        "importPath": "config.settings.base",
+        "description": "config.settings.base",
+        "peekOfCode": "CACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n        'LOCATION': '127.0.0.1:11211',\n    }\n}",
         "detail": "config.settings.base",
         "documentation": {}
     },

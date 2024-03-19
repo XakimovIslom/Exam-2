@@ -6,7 +6,7 @@ from project1.models import JobSeekers, Vacancy
 from project1.serializers import VacancySerializer
 
 
-# @method_decorator(cache_page(60 * 15), name="dispatch")
+@method_decorator(cache_page(60 * 15), name="dispatch")
 class VacancyCompanyResumeListApiView(generics.ListAPIView):
     serializer_class = VacancySerializer
     queryset = Vacancy.objects.all()
