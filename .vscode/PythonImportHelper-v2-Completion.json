@@ -152,6 +152,54 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -317,14 +365,6 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -426,6 +466,14 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -434,7 +482,7 @@
         "documentation": {}
     },
     {
-        "label": "include",
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -498,6 +546,22 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -535,6 +599,151 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Company",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobSeekers",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Region",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Vacancy",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Company",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobSeekers",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Vacancy",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobSeekers",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Vacancy",
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "isExtraImport": true,
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "common.models",
+        "description": "common.models",
+        "isExtraImport": true,
+        "detail": "common.models",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "project1",
+        "description": "project1",
+        "isExtraImport": true,
+        "detail": "project1",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "cache_page",
+        "importPath": "django.views.decorators.cache",
+        "description": "django.views.decorators.cache",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.cache",
+        "documentation": {}
+    },
+    {
+        "label": "VacancySerializer",
+        "importPath": "project1.serializers",
+        "description": "project1.serializers",
+        "isExtraImport": true,
+        "detail": "project1.serializers",
         "documentation": {}
     },
     {
@@ -760,14 +969,6 @@
         "documentation": {}
     },
     {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
-        "isExtraImport": true,
-        "detail": "rest_framework.response",
-        "documentation": {}
-    },
-    {
         "label": "APIView",
         "importPath": "rest_framework.views",
         "description": "rest_framework.views",
@@ -805,15 +1006,6 @@
         "description": "task3.serializers",
         "isExtraImport": true,
         "detail": "task3.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
         "documentation": {}
     },
     {
@@ -1117,7 +1309,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_RESULT_BACKEND = env.str(\"CELERY_BROKER_URL\", \"redis://localhost:6379\")\nCELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "CELERY_RESULT_BACKEND = env.str(\"CELERY_BROKER_URL\", \"redis://localhost:6379\")\nCELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1126,7 +1318,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "CELERY_TIMEZONE = \"Asia/Tashkent\"\nCELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1135,7 +1327,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "CELERY_TASK_TRACK_STARTED = True\nCELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1144,7 +1336,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "CELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "CELERY_TASK_TIME_LIMIT = 30 * 60\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nAXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1153,7 +1345,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "AXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "AXES_FAILURE_LIMIT = 3  # Limit login attempts to 5\nAXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',\n#     }\n# }",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1162,7 +1354,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "AXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "AXES_COOLOFF_TIME = 0  # Lock out the user for 1 minute after reaching the limit\nAUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',\n#     }\n# }",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1171,7 +1363,7 @@
         "kind": 5,
         "importPath": "config.settings.base",
         "description": "config.settings.base",
-        "peekOfCode": "AUTH_USER_MODEL = \"task1.User\"",
+        "peekOfCode": "AUTH_USER_MODEL = \"task1.User\"\n# CACHES = {\n#     'default': {\n#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',\n#         'LOCATION': '127.0.0.1:11211',\n#     }\n# }",
         "detail": "config.settings.base",
         "documentation": {}
     },
@@ -1243,7 +1435,7 @@
         "kind": 5,
         "importPath": "config.urls",
         "description": "config.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"user/\", include(\"task1.urls\")),\n    path(\"task3/\", include(\"task3.urls\")),\n]\nurlpatterns += swagger_urlpatterns\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\n    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/v1/user/\", include(\"task1.urls\")),\n    path(\"api/v1/task3/\", include(\"task3.urls\")),\n    path(\"api/v1/statistics/\", include(\"project1.urls\")),\n]\nurlpatterns += swagger_urlpatterns\nif settings.DEBUG:\n    urlpatterns += static(\n        settings.MEDIA_URL,",
         "detail": "config.urls",
         "documentation": {}
     },
@@ -1257,12 +1449,120 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "project1.migrations.0001_initial",
+        "description": "project1.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('created_at', models.DateTimeField(auto_now_add=True)),",
+        "detail": "project1.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "project1.migrations.0002_statistics",
+        "description": "project1.migrations.0002_statistics",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('project1', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Statistics',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('created_at', models.DateTimeField(auto_now_add=True)),",
+        "detail": "project1.migrations.0002_statistics",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "project1.migrations.0003_delete_statistics",
+        "description": "project1.migrations.0003_delete_statistics",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('project1', '0002_statistics'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='Statistics',\n        ),\n    ]",
+        "detail": "project1.migrations.0003_delete_statistics",
+        "documentation": {}
+    },
+    {
         "label": "Task1ApiConfig",
         "kind": 6,
         "importPath": "project1.apps",
         "description": "project1.apps",
         "peekOfCode": "class Task1ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'project1'",
         "detail": "project1.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "peekOfCode": "class Category(BaseModel):\n    title = models.CharField(max_length=256)\n    def __str__(self):\n        return self.title\nclass Region(BaseModel):\n    title = models.CharField(max_length=256)\n    def __str__(self):\n        return self.title\nclass Company(BaseModel):\n    title = models.CharField(max_length=255)",
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Region",
+        "kind": 6,
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "peekOfCode": "class Region(BaseModel):\n    title = models.CharField(max_length=256)\n    def __str__(self):\n        return self.title\nclass Company(BaseModel):\n    title = models.CharField(max_length=255)\n    description = models.TextField()\n    image = models.ImageField(upload_to=\"images/\", blank=True, null=True)\n    def __str__(self):\n        return self.title",
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Company",
+        "kind": 6,
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "peekOfCode": "class Company(BaseModel):\n    title = models.CharField(max_length=255)\n    description = models.TextField()\n    image = models.ImageField(upload_to=\"images/\", blank=True, null=True)\n    def __str__(self):\n        return self.title\nclass Vacancy(BaseModel):\n    title = models.CharField(max_length=255, blank=True, null=True)\n    category = models.ForeignKey(\n        Category, on_delete=models.CASCADE, related_name=\"categories\"",
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "Vacancy",
+        "kind": 6,
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "peekOfCode": "class Vacancy(BaseModel):\n    title = models.CharField(max_length=255, blank=True, null=True)\n    category = models.ForeignKey(\n        Category, on_delete=models.CASCADE, related_name=\"categories\"\n    )\n    company = models.ForeignKey(\n        Company, on_delete=models.CASCADE, related_name=\"vacancies\"\n    )\n    description = models.TextField(blank=True, null=True)\n    from_price = models.IntegerField(blank=True, null=True)",
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobSeekers",
+        "kind": 6,
+        "importPath": "project1.models",
+        "description": "project1.models",
+        "peekOfCode": "class JobSeekers(BaseModel):\n    region = models.ForeignKey(\n        Region,\n        on_delete=models.CASCADE,\n        related_name=\"regions\",\n    )\n    vacancy = models.ForeignKey(\n        Vacancy, on_delete=models.CASCADE, related_name=\"vacancies\"\n    )\n    first_name = models.CharField(max_length=256, blank=True, null=True)",
+        "detail": "project1.models",
+        "documentation": {}
+    },
+    {
+        "label": "VacancySerializer",
+        "kind": 6,
+        "importPath": "project1.serializers",
+        "description": "project1.serializers",
+        "peekOfCode": "class VacancySerializer(serializers.ModelSerializer):\n    category = serializers.StringRelatedField(source='category.title')\n    class Meta:\n        model = Vacancy\n        fields = (\"category\", \"calculated_price\")",
+        "detail": "project1.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "project1.urls",
+        "description": "project1.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.VacancyCompanyResumeListApiView.as_view()),\n    path(\"vacancy/\", views.VacancyListAPIView.as_view()),\n]",
+        "detail": "project1.urls",
+        "documentation": {}
+    },
+    {
+        "label": "VacancyCompanyResumeListApiView",
+        "kind": 6,
+        "importPath": "project1.views",
+        "description": "project1.views",
+        "peekOfCode": "class VacancyCompanyResumeListApiView(generics.ListAPIView):\n    serializer_class = VacancySerializer\n    queryset = Vacancy.objects.all()\n    def get(self, request, *args, **kwargs):\n        vacancy_count = self.get_queryset().count()\n        company_count = (\n            Vacancy.objects.all().values(\"company__title\").distinct().count()\n        )\n        resume_count = JobSeekers.objects.all().count()\n        return Response(",
+        "detail": "project1.views",
+        "documentation": {}
+    },
+    {
+        "label": "VacancyListAPIView",
+        "kind": 6,
+        "importPath": "project1.views",
+        "description": "project1.views",
+        "peekOfCode": "class VacancyListAPIView(generics.ListAPIView):\n    queryset = Vacancy.objects.all()\n    serializer_class = VacancySerializer",
+        "detail": "project1.views",
         "documentation": {}
     },
     {
