@@ -51,8 +51,10 @@ class Vacancy(BaseModel):
     def calculated_price(self):
         average_price = (self.from_price + self.to_price) / 2
         if self.to_price / self.from_price > 2:
-            return (self.from_price + average_price) / 2 - (average_price + self.to_price) / 2
-        elif self.from_price / self.from_price < 2:
+            return (self.from_price + average_price) / 2 - (
+                average_price + self.to_price
+            ) / 2
+        elif self.from_price / self.to_price < 2:
             return average_price
 
 

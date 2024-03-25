@@ -56,7 +56,7 @@ THIRD_PARTY_APPS = [
 
 AUTHENTICATION_BACKENDS = [
     # AxesStandaloneBackend should be the first backend in the AUTHENTICATION_BACKENDS list.
-    # "axes.backends.AxesStandaloneBackend",
+    "axes.backends.AxesStandaloneBackend",
     # Django ModelBackend is the default authentication backend.
     "django.contrib.auth.backends.ModelBackend",
 ]
@@ -215,7 +215,7 @@ AUTH_USER_MODEL = "task1.User"
 
 CACHES = {
     'default': {
-        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
         'LOCATION': '127.0.0.1:11211',
     }
 }
